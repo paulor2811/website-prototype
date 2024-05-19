@@ -1,8 +1,103 @@
 /* app.component.css */
+
 .background-container {
-    height: 100vh; /* Ajusta a altura para 100% da viewport */
-    background-image: url('/src/assets/bg.jpg'); /* Caminho para a imagem de background */
-    background-size: cover; /* Faz a imagem cobrir toda a área */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Evita a repetição da imagem */
-  }
+    height: 100vh;
+    background-image: url('./assets/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0; /* Remove qualquer margem adicional */
+    padding: 0; /* Remove qualquer padding adicional */
+}
+
+.form-class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 650px;
+    height: 650px;
+    top: 215px;
+    left: 635px;
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.label-login {
+    position: absolute;
+    top: 70px; /* Ajuste manual da posição vertical */
+    left: calc((650px - 200px) / 2); /* Calcula a posição horizontal */
+    font-size: 64px;
+    font-family: "ligconsolate", monospace;
+}
+
+.div-name {
+    position: relative;
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+    top: -60px;
+    left: -20px;
+}
+
+.label-name {
+    margin: 20px;
+}
+
+.input-name {
+    width: 482px;
+    height: 45px;
+    border-radius: 45px;
+}
+
+.div-email {
+    position: absolute; /* Mudado para posição absoluta */
+    top: 300px; /* Ajusta a posição vertical abaixo da div de nome */
+    left: 0;
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+}
+
+.label-email {
+    margin: 20px;
+}
+
+.input-email {
+    width: 489px;
+    height: 45px;
+    border-radius: 45px;
+}
+
+.div-pwd {
+    position: absolute; /* Mudado para posição absoluta */
+    top: 380px; /* Ajusta a posição vertical abaixo da div de nome */
+    left: 0;
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+}
+
+.label-pwd {
+    margin: 20px;
+}
+
+.input-pwd {
+    position: relative;
+    width: 478px;
+    height: 45px;
+    border-radius: 45px;
+    left: -10px;
+}
+
+.div-button {
+    position: absolute;
+    top: 480px;
+}
+
+.btn-entrar {
+    
+    width: 620px; /* Define a largura desejada */
+    height: 62px; /* Define a altura desejada */
+    font-size: 32px; /* Define o tamanho da fonte do botão */
+    border-radius: 62px;
+    font-weight: 600; /* Define a fonte como semi-bold */
+    background-color: #1271FF;
+}
