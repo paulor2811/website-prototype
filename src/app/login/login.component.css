@@ -1,0 +1,92 @@
+/* login.component.css */
+
+.form-class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 650px;
+    height: 650px;
+    top: 215px;
+    left: 635px;
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.label-login {
+    position: absolute;
+    top: 70px; /* Ajuste manual da posição vertical */
+    left: calc((650px - 200px) / 2); /* Calcula a posição horizontal */
+    font-size: 64px;
+    font-family: "ligconsolate", monospace;
+}
+
+.div-email {
+    position: absolute; /* Mudado para posição absoluta */
+    top: 250px; /* Ajusta a posição vertical abaixo da div de nome */
+    left: 0;
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+}
+
+.label-email {
+    margin: 20px;
+}
+
+.input-email {
+    width: 489px;
+    height: 45px;
+    border-radius: 45px;
+}
+
+.div-pwd {
+    position: absolute; /* Mudado para posição absoluta */
+    top: 340px; /* Ajusta a posição vertical abaixo da div de nome */
+    left: 0;
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+}
+
+.label-pwd {
+    margin: 20px;
+}
+
+.input-pwd {
+    position: relative;
+    width: 487px;
+    height: 45px;
+    border-radius: 45px;
+    left: -10px;
+}
+
+.div-button {
+    position: absolute;
+    top: 450px;
+}
+
+.btn-entrar {
+    position: relative;
+    width: 590px; /* Define a largura desejada */
+    height: 62px; /* Define a altura desejada */
+    font-size: 32px; /* Define o tamanho da fonte do botão */
+    border-radius: 62px;
+    font-weight: 600; /* Define a fonte como semi-bold */
+    background-color: #1271FF;
+    left: -10px;
+}
+
+.div-register {
+    position: absolute;
+    top: 540px;
+}
+
+.btn-register {
+    position: relative;
+    width: 590px; /* Define a largura desejada */
+    height: 62px; /* Define a altura desejada */
+    font-size: 32px; /* Define o tamanho da fonte do botão */
+    border-radius: 62px;
+    font-weight: 600; /* Define a fonte como semi-bold */
+    background-color: #1271FF;
+    left: -10px;
+}

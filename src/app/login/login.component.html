@@ -1,0 +1,19 @@
+<div class="background-container">
+  <form class="form-class" *ngIf="showContent">
+    <label class="label-login">Login</label>
+    <div class="div-email">
+      <label class="label-email">Email</label>
+      <input class="input-email" >
+    </div>
+    <div class="div-pwd">
+      <label class="label-pwd">Senha</label>
+      <input type="password" class="input-pwd" >
+    </div>
+    <div class="div-button">
+      <button class="btn-entrar" (click)="clearContent()">Entrar</button>
+    </div>
+    <div class="div-register">
+      <button class="btn-register" (click)="clearContent()">Registre-se</button>
+    </div>
+  </form>
+</div>

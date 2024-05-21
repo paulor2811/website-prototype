@@ -14,3 +14,13 @@ app-root {
     margin: 0;
     padding: 0;
 }
+
+.background-container {
+    height: 100vh;
+    background-image: url('./app/assets/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0; /* Remove qualquer margem adicional */
+    padding: 0; /* Remove qualquer padding adicional */
+}

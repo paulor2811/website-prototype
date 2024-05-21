@@ -1,0 +1,113 @@
+/* register.component.css */
+
+.form-class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 650px;
+    height: 650px;
+    top: 215px;
+    left: 635px;
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.label-register {
+    position: absolute;
+    top: 0px; /* Ajuste manual da posição vertical */
+    left: calc((650px - 200px) / 3); /* Calcula a posição horizontal */
+    font-size: 64px;
+    font-family: "ligconsolate", monospace;
+}
+
+.div-name {
+    position: absolute; /* Mudado para posição absoluta */
+    top: 160px; /* Ajusta a posição vertical abaixo da div de nome */
+    left: 0;
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+}
+
+.label-name {
+    margin: 20px;
+}
+
+.input-name {
+    width: 489px;
+    height: 45px;
+    border-radius: 45px;
+}
+
+
+.div-email {
+    position: absolute; /* Mudado para posição absoluta */
+    top: 250px; /* Ajusta a posição vertical abaixo da div de nome */
+    left: 0;
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+}
+
+.label-email {
+    margin: 20px;
+}
+
+.input-email {
+    width: 489px;
+    height: 45px;
+    border-radius: 45px;
+}
+
+.div-pwd {
+    position: absolute; /* Mudado para posição absoluta */
+    top: 340px; /* Ajusta a posição vertical abaixo da div de nome */
+    left: 0;
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+}
+
+.label-pwd {
+    margin: 20px;
+}
+
+.input-pwd {
+    position: relative;
+    width: 487px;
+    height: 45px;
+    border-radius: 45px;
+    left: -10px;
+}
+
+.div-button {
+    position: absolute;
+    top: 450px;
+}
+
+.btn-register {
+    position: relative;
+    width: 590px; /* Define a largura desejada */
+    height: 62px; /* Define a altura desejada */
+    font-size: 32px; /* Define o tamanho da fonte do botão */
+    border-radius: 62px;
+    font-weight: 600; /* Define a fonte como semi-bold */
+    background-color: #1271FF;
+    left: -10px;
+}
+
+.div-home {
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+
+.home-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+  
+.home-button img {
+    width: 24px;
+    height: 24px;
+}
